@@ -12,7 +12,6 @@ export default function createIntegration(schema: ZodSchema): AstroIntegration {
         configMode = config.vite.mode || ''
       },
       'astro:server:setup': () => {
-        console.log('astro:server:setup')
         const env = loadEnv(configMode, process.cwd(), '')
         const parsed = schema.safeParse(env)
 
