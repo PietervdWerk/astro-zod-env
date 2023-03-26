@@ -2,22 +2,25 @@
   "name": "astro-zod-env",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Astro integration for validating environment variables with Zod",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PietervdWerk/astro-zod-env.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "@PietervdWerk",
   "bugs": {
     "url": "https://github.com/PietervdWerk/astro-zod-env/issues"
   },
   "homepage": "https://github.com/PietervdWerk/astro-zod-env#readme",
   "devDependencies": {
+    "tsup": "^6.7.0",
     "typescript": "^5.0.2"
   }
 }
