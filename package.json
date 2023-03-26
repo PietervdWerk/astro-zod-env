@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/PietervdWerk/astro-zod-env.git"
   },
-  "author": "@PietervdWerk",
+  "author": "PietervdWerk",
   "bugs": {
     "url": "https://github.com/PietervdWerk/astro-zod-env/issues"
   },
