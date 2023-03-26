@@ -21,7 +21,13 @@
   "homepage": "https://github.com/PietervdWerk/astro-zod-env#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+    "astro": "^2.1.7",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "zod": "^3.21.4"
+  },
+  "dependencies": {
+    "prettier": "^2.8.7"
   }
 }
